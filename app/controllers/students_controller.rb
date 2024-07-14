@@ -7,6 +7,14 @@ class StudentsController < ApplicationController
         @student = Students.all
     end
 
+    def create
+
+    end
+
+    def update
+    end
+    
+
 
 
 
