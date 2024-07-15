@@ -1,0 +1,17 @@
+
+  <h1>This is a new page</h1>
+
+  <%= form_with scope: :student, url: students_path, local: true do |form| %>
+   
+    <%= form.label :first_name %>
+    <%= form.text_field :first_name %>
+
+    <%= form.label :last_name %>
+    <%= form.text_field :last_name %>
+
+    <%= form.label :address %>
+    <%= form.text_area :address %>
+
+    <%= form.submit "Submit" %>
+
+<% end %>
